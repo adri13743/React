@@ -22,7 +22,7 @@ Este proyecto fue inicializado con **Vite** y utiliza el siguiente *stack* tecno
 * **Frontend:** [React](https://reactjs.org/)
 * **Lenguaje:** JavaScript / ES6+ y **JSX** (Sintaxis de React).
 * **Bundler:** [Vite](https://vitejs.dev/)
-* **Dependencias Adicionales:** * (Añade aquí librerías importantes que ya instalaste, ej: `axios`, `react-router-dom`, etc.)
+* **Dependencias Adicionales:....
 
 ---
 
@@ -38,8 +38,8 @@ Necesitas tener **Node.js** y **npm** (o yarn/pnpm) instalados.
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone [https://github.com/tu_usuario/tu_repositorio.git](https://github.com/tu_usuario/tu_repositorio.git)
-    cd tu_repositorio
+    git clone https://github.com/adri13743/React.git
+    cd React
     ```
 2.  **Instala las dependencias:**
     ```bash
@@ -53,17 +53,19 @@ Necesitas tener **Node.js** y **npm** (o yarn/pnpm) instalados.
     ```
 
 La aplicación estará disponible en `http://localhost:5173` (o el puerto que te indique Vite).
-📌 Estado y Próximos Pasos
+---
+## 📌 Estado y Próximos Pasos
 
 El desarrollo de este repositorio es constante y se centra en la experimentación.
 
-Ramas: 
+* **Ramas:**
 
-Próximas Pruebas:
+* **Próximas Pruebas:**
 
 
+---
+## 🤝 Contribuciones
 
-🤝 Contribuciones
 Este es un proyecto de práctica personal.
 
 Hecho por adri13743

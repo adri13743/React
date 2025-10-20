@@ -53,6 +53,7 @@ Necesitas tener **Node.js** y **npm** (o yarn/pnpm) instalados.
     ```
 
 La aplicación estará disponible en `http://localhost:5173` (o el puerto que te indique Vite).
+
 ---
 ## 📌 Estado y Próximos Pasos
 

@@ -1,3 +1,4 @@
+import'./variables.css';
 const texto = 'texto formato string';
 const numeros = 12345;
 const lista = ['Adrian Rubio', 1998];

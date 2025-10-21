@@ -6,6 +6,9 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
 import { Variables } from './basico/variables'
+
+import './styles.css';
+
 // Busca el elemento DOM donde se inyectará la aplicación.
 // En el archivo 'index.html' (típicamente), hay un <div> con id="root".
 createRoot(document.getElementById('root')).render(

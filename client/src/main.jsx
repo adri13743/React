@@ -5,11 +5,11 @@ import { StrictMode } from 'react'
 // dónde montar la aplicación en el DOM (el HTML real del navegador).
 import { createRoot } from 'react-dom/client'
 
-import { Componente } from './basico/componenteBasico'
+import { Variables } from './basico/variables'
 // Busca el elemento DOM donde se inyectará la aplicación.
 // En el archivo 'index.html' (típicamente), hay un <div> con id="root".
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Componente/>
+    <Variables/>
   </StrictMode>,
 )

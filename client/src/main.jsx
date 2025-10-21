@@ -5,7 +5,7 @@ import { StrictMode } from 'react'
 // dónde montar la aplicación en el DOM (el HTML real del navegador).
 import { createRoot } from 'react-dom/client'
 
-import { Props } from './basico/props'
+import { Contador } from './basico/eventos'
 
 import './styles.css';
 
@@ -13,6 +13,6 @@ import './styles.css';
 // En el archivo 'index.html' (típicamente), hay un <div> con id="root".
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Props  informacion ="Las dos cosas que estoy pasando son los props" numero = {1}/>
+    <Contador valor = {0} />
   </StrictMode>,
 )

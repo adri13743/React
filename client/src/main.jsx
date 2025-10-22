@@ -5,7 +5,7 @@ import { StrictMode } from 'react'
 // dónde montar la aplicación en el DOM (el HTML real del navegador).
 import { createRoot } from 'react-dom/client'
 
-import { Contador } from './basico/eventos'
+import { CondicionalesTernarios } from './basico/condicionalesTernarios'
 
 import './styles.css';
 
@@ -13,6 +13,6 @@ import './styles.css';
 // En el archivo 'index.html' (típicamente), hay un <div> con id="root".
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Contador valor = {0} />
+    <CondicionalesTernarios valor = {0} />
   </StrictMode>,
 )

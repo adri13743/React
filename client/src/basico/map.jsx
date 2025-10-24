@@ -21,7 +21,8 @@ export const Map = () => {
         setMapa([...mapa, {nombre:"nueva tarea" , vista:true}])
     }
     const onAgregaTarea=(val)=>{
-        if(val<1) return; // si no hay inf sale del metodo y no hace nada
+        if(val.trim()<1) return; // si no hay inf sale del metodo y no hace nada
+        // .trim si pones espacios al principio que no los tenga en cuenta
         const envio ={nombre: val, vista:false};
         setMapa([...mapa, envio]);
     }

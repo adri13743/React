@@ -1,5 +1,5 @@
 import {useState } from "react";
-import { ListaUsuarios } from "../components/componentes _usuarios/listaUsuarios";
+import { ListaUsuarios } from "../components/basicos/componentes _usuarios/listaUsuarios";
 export const Usuarios = () =>{
     // Inicialmente, se establece para pedir los datos de 'users'.
     const [endPoint,setendPoint] =useState('users');
